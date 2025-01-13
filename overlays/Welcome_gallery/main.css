@@ -1,0 +1,35 @@
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:white;
+    opacity: 1;
+    font-size: 80px;
+    text-shadow: 2px 2px #000000;
+    font-family: 'Handlee', cursive;
+}
+
+#center {
+    /*display: grid;
+    place-items: center;*/
+    text-align: center;
+    /*background-image: url("background_crop.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    width: 1920px;
+    height: 1080px;
+}
+
+#timer-box{
+	background-color: rgba(0.8, 0.8, 0.8, 0.3);
+	width: 800px;
+	height: 300px;
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+	border-radius: 30px 140px 30px 140px;
+}

@@ -1,0 +1,42 @@
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:white;
+    opacity: 1;
+    font-size: 80px;
+    text-shadow: 2px 2px #000000;
+    font-family: 'Handlee', cursive;
+}
+
+#name_box {
+    transition: opacity 2500ms cubic-bezier(0.32, 0, 0.745, 0.715);
+    background-image: url("copplestone-country.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 800px;
+    width: 100%;
+    padding-left: 40px;
+    opacity:0;
+}
+
+#name_box.in{
+    opacity: 1;
+}
+
+#center {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: url("background_crop.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 1080px;
+}

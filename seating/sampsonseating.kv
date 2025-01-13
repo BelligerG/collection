@@ -1,0 +1,362 @@
+#:set deskSize 75
+#:set deskBorder 4
+#:set innerDeskSize deskSize-deskBorder
+
+<CustomButton>:
+	size_hint_y: None
+	height: "60dp"
+
+<SaveBox>:
+
+	canvas:
+		Color:
+			rgb: [0.1, 0.1, 0.1, 1]
+		Rectangle:
+			pos: 0, 0
+			size: root.width, root.height
+	GridLayout:
+		cols: 2
+		rows: 1
+		padding: "10dp"
+		spacing: "5dp"
+
+		TextInput:
+			id: FileName
+			hint_text: "Filename"
+			size_hint_y: None
+			height: 30
+			size_hint_x: None
+			width: 500
+			multiline: False
+		BoxLayout:
+			orientation: "horizontal"
+			CustomButton:
+				text: "Save"
+				on_press: root.saveFile(FileName.text)
+			CustomButton:
+				text: "Back"
+				on_press: root.goBack()
+
+<SaveClassroomLayoutScreen>:
+
+	canvas:
+		Color:
+			rgb: [0.1, 0.1, 0.1, 1]
+		Rectangle:
+			pos: 0, 0
+			size: root.width, root.height
+	GridLayout:
+		cols: 2
+		rows: 1
+		padding: "10dp"
+		spacing: "5dp"
+
+		TextInput:
+			id: FileName
+			hint_text: "Filename"
+			size_hint_y: None
+			height: 30
+			size_hint_x: None
+			width: 500
+			multiline: False
+		BoxLayout:
+			orientation: "horizontal"
+			CustomButton:
+				text: "Save"
+				on_press: root.saveFile(FileName.text)
+			CustomButton:
+				text: "Back"
+				on_press: root.goBack()
+
+<LoadBox>:
+
+	canvas:
+		Color:
+			rgb: [0.1, 0.1, 0.1, 1]
+		Rectangle:
+			pos: 0, 0
+			size: root.width, root.height
+	GridLayout:
+		cols: 2
+		rows: 1
+		padding: "10dp"
+		spacing: "5dp"
+
+		TextInput:
+			id: FileName
+			hint_text: "Filename"
+			size_hint_y: None
+			height: 30
+			size_hint_x: None
+			width: 500
+			multiline: False
+		BoxLayout:
+			orientation: "horizontal"
+			CustomButton:
+				text: "Load"
+				on_press: root.loadFile(FileName.text)
+			CustomButton:
+				text: "Back"
+				on_press: root.goBack()
+
+<LoadClassroomLayoutScreen>:
+
+	canvas:
+		Color:
+			rgb: [0.1, 0.1, 0.1, 1]
+		Rectangle:
+			pos: 0, 0
+			size: root.width, root.height
+	GridLayout:
+		cols: 2
+		rows: 1
+		padding: "10dp"
+		spacing: "5dp"
+
+		TextInput:
+			id: FileName
+			hint_text: "Filename"
+			size_hint_y: None
+			height: 30
+			size_hint_x: None
+			width: 500
+			multiline: False
+		BoxLayout:
+			orientation: "horizontal"
+			CustomButton:
+				text: "Load"
+				on_press: root.loadFile(FileName.text)
+			CustomButton:
+				text: "Back"
+				on_press: root.goBack()
+
+
+
+<Desk>:
+	canvas:
+		Color:
+			rgb: [0, 0, 0]
+		Rectangle:
+			pos: self.center_x, self.center_y
+			size: deskSize, deskSize
+		Color:
+			rgb: [255, 255, 255]
+		Rectangle:
+			pos: self.center_x+deskBorder/2, self.center_y+deskBorder/2
+			size: innerDeskSize, innerDeskSize
+    # Define the properties for the DragLabel
+    drag_rectangle: self.center_x, self.center_y, deskSize, deskSize
+    drag_timeout: 10000000
+    drag_distance: 0
+
+<Student>:
+    # Define the properties for the DragLabel
+    drag_rectangle: self.center_x-deskSize/2, self.center_y-deskSize/2, deskSize, deskSize
+    drag_timeout: 10000000
+    drag_distance: 0
+
+
+
+
+<ManageStudentsScreen>:
+
+	#StudentList: StudentsNamesInput
+
+	canvas:
+		Color:
+			rgb: [0, 0, 0, 1]
+		Rectangle:
+			pos: 0, 0
+			size: root.width, root.height
+
+	BoxLayout:
+		orientation: "vertical"
+		padding: "10dp"
+		spacing: "5dp"
+		BoxLayout:
+			padding: [0, 0, 0, -(root.height*0.5)+70]
+			orientation: "horizontal"
+			TextInput:
+				id: StudentsNamesInput
+				hint_text: root.studentsHintText
+				text: root.students
+				size_hint_y: None
+				height: root.height-75
+		BoxLayout:
+			padding: "-8dp"
+			orientation: "horizontal"
+			CustomButton:
+				text: "Update Students"
+				on_press: root.updateStudents(StudentsNamesInput.text)
+			CustomButton:
+				text: "Back"
+				on_press: root.goBack()
+
+<AddStudentDetails>:
+
+	canvas:
+		Color:
+			rgb: [0, 0, 0, 1]
+		Rectangle:
+			pos: 0, 0
+			size: root.width, root.height
+
+	BoxLayout:
+		orientation: "vertical"
+		padding: "10dp"
+		spacing: "5dp"
+		BoxLayout:
+			padding: [0, 0, 0, -(root.height*0.5)+70]
+			orientation: "horizontal"
+			Label:
+				id: StudentNames
+				text_size: self.size
+				text: root.students
+				valign: 'top'
+				size_hint_y: None
+				height: root.height-80
+				size_hint_x: None
+				width: root.width*0.3
+			TextInput:
+				id: StudentsPP
+				hint_text: "PP"
+				text: root.PPText
+				size_hint_y: None
+				height: root.height-75
+				size_hint_x: None
+				width: root.width*0.1
+			TextInput:
+				id: StudentsSEN
+				hint_text: "SEN"
+				text: root.SENText
+				size_hint_y: None
+				height: root.height-75
+				size_hint_x: None
+				width: root.width*0.1
+			TextInput:
+				id: StudentsMed
+				hint_text: "Medical"
+				text: root.MEDText
+				size_hint_y: None
+				height: root.height-75
+				size_hint_x: None
+				width: root.width*0.1
+			TextInput:
+				id: StudentsAtt
+				hint_text: "Attainment"
+				text: root.ATTText
+				size_hint_y: None
+				height: root.height-75
+				size_hint_x: None
+				width: root.width*0.1
+
+
+		BoxLayout:
+			padding: "-8dp"
+			orientation: "horizontal"
+			CustomButton:
+				text: "Update Details"
+				on_press: root.studentInfo(StudentsPP.text, StudentsSEN.text, StudentsMed.text, StudentsAtt.text)
+			CustomButton:
+				text: "Back"
+				on_press: root.goBack()
+
+
+SeatingPlanRoot:
+
+<SeatingPlanRoot>:
+	canvas:
+		Color:
+			rgb: [1, 1, 1]
+		Rectangle:
+			#source: 'seating_background.png'
+			pos: 0, 0
+			size: root.width, root.height
+	padding_x: "10dp"
+	GridLayout:
+		pos: 0, 0
+		size_hint_x: None
+		width: "150dp"
+		cols: 1
+		rows: 12
+		spacing: [0,4]
+		CustomButton:
+			text: "Add new table"
+			on_press: root.addTable()
+		CustomButton:
+			text: "Delete Table"
+			on_press: root.removeTable()
+		CustomButton:
+			text: "Manage Students"
+			on_press: root.manageStudents()
+		CustomButton:
+			text: "Save Seating Plan"
+			on_press: root.saveFullSeatingPlan()
+		CustomButton:
+			text: "Load Seating Plan"
+			on_press: root.loadFullSeatingPlan()
+		CustomButton:
+			text: "Save Classroom\n     Template"
+			on_press: root.saveClassroomLayout()
+		CustomButton:
+			text: "Load Classroom\n     Template"
+			on_press: root.loadClassroomLayout()
+		CustomButton:
+			text: "Add Student\n    Details"
+			on_press: root.addDetails()
+		CustomButton:
+			text: "Random Seating"
+			on_press: root.randomAssignPositions()
+		GridLayout:
+			cols: 2
+			rows: 1
+			Button:
+				background_normal: "whitebox.png"
+				background_color: (root.StudentButtonColourR, root.StudentButtonColourG, root.StudentButtonColourB, 1.0)
+				text: "Student \n  View"
+				size_hint_y: None
+				height: "60dp"
+				on_press: root.studentView()
+			Button:
+				background_normal: "whitebox.png"
+				background_color: (root.TeacherButtonColourR, root.TeacherButtonColourG, root.TeacherButtonColourB, 1.0)
+				text: "Teacher \n  View"
+				size_hint_y: None
+				height: "60dp"
+				on_press: root.teacherView()
+		
+	
+    #what about returning the position, if the position is outside the box, then just moving it back to original space?...
+    #Does the same as draglabel?
+    #Scatter:
+    	#canvas:
+    	#	color: 
+    	#		rgb: [1, 1, 1, 1]
+    	#do_translation_y: False
+
+	#	button:
+	#		pos: root.center_x, root.center_y
+	#		text: "Seating Plan Screen"
+	#		background_color: "Blue"
+	#GridLayout:
+	#	size_hint_x: None
+	#	width: "200dp"
+	#	cols: 1
+	#	rows: 3
+	#	Label:
+	#		size_hint_y: None
+	#		height: "60dp"
+	#		text: "Input student names here:"
+	#	TextInput:
+	#	GridLayout:
+	#		size_hint_y: None
+	#		height: "60dp"
+	#		cols: 2
+	#		rows: 1
+	#		Button:
+	#			text: "Submit"
+	#		Button:
+	#			text: "Delete\nStudents"
+			
+
+

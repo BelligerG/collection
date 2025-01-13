@@ -1,0 +1,23 @@
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+.triangle1, .triangle2, .triangle3{
+	fill: rgb(223, 223, 223);
+	stroke: black;
+	stroke-width: 0.2 ;
+}
+
+#svg-container {
+	height: auto;
+	width: 50vw;
+	max-width: 500px;
+}
+
+.triangle1.highlight {
+	fill: red;
+}
+.triangle1-text {
+	fill: white;
+}

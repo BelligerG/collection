@@ -1,0 +1,19 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+#body-div {
+    padding:1vw;
+}
+
+#lyrics_panel {
+    width:95vw;
+    height: 75vh;
+}
+
+#result_text {
+    margin-top: 10px;
+    width: 95vw;
+    border: solid black 1px;
+}
