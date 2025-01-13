@@ -1,0 +1,75 @@
+\begin{thebibliography}{10}
+
+\bibitem{hybrid_mc}
+S.~Duane, A.D. Kennedy, B.J. Pendleton, and D.~Roweth.
+\newblock {H}ybrid {M}onte {C}arlo.
+\newblock {\em {P}hysics {L}etters {B}}, 195(2):216--222, 1987.
+
+\bibitem{hybrid_mc_condensed_matter}
+B.~Mehlig, D.W. Heermann, and B.M. Forrest.
+\newblock Hybrid {M}onte {C}arlo method for condensed-matter systems.
+\newblock {\em Physical {R}eview {B}}, 45(2):679--685, 1992.
+
+\bibitem{Maraglia_polar_method}
+G.~Marsaglia and T.A. Bray.
+\newblock {A} {C}onvenient {M}ethod for {G}enerating {N}ormal {V}ariables.
+\newblock {\em {S}ociety for {I}ndustrial and {A}pplied {M}athematics
+  {R}eview}, 6(3):260--264, 1964.
+
+\bibitem{oniom}
+K.S. Byun K. Morokuma M.J.~Frisch S.~Dapprich, I.~Kom\'{a}romi.
+\newblock A new oniom implementation in gaussian98. part i. the calculation of
+  energies, ggradient, vibrational frequencies and electric field derivatives.
+\newblock {\em Journal of Molecular Structure: THEOCHEM}, 461-462:1--21, 1999.
+
+\bibitem{Iftimie_hybrid_MC}
+R.~Iftimie, D.~Salahub, D.~Wei, and J.~Schofield.
+\newblock Using a classical potential as an efficient importance function for
+  sampling from ab initio potential.
+\newblock {\em The {J}ournal of {C}hemical {P}hysics}, 113:4852--4862, 2000.
+
+\bibitem{antechamber}
+P.A. Kollman D.A.~Case J.~Wang, W.~Wang.
+\newblock {A}utomatic atom {T}ype and {B}ond {T}ype {P}erception in {M}olecular
+  {M}echanical {C}alculations.
+\newblock {\em Journal of Molecular Graphics and Modelling}, 25:247260, 2006.
+
+\bibitem{ref_gromacs}
+B.~Hess, C.~Kutzner, D.~{van der Spoel}, and E.~Lindahl.
+\newblock {GROMACS} 4: {A}lgorithms for highly efficient, load-balanced, and
+  scalable molecular simulation.
+\newblock {\em Journal of {C}hemical {T}heory and {C}omputation}, 4:435--447,
+  2008.
+
+\bibitem{flexible_spc}
+Y.~Wu, H.~Tepper, and G.A. Voth.
+\newblock Flexible {S}imple {P}oint-{C}harge {W}ater {M}odel with {I}mproved
+  {L}iquid-{S}tate {P}roperties.
+\newblock {\em Journal of {C}hemical {P}hysics}, 124(024503), 2006.
+
+\bibitem{nwchem}
+M.~Valiev, E.J. Bylaska, N.~Govind, K.~Kowalski, T.P. Straatsma, H.J.J. {van
+  Dam}, D.~Wang, J.~Nieplocha, E.~Apra, T.L. Windus, and W.A. {de Jong}.
+\newblock Nwchem: a comprehensive and scalable open-source solution for large
+  sclae molecular simulations.
+\newblock {\em Comput. Phys. Commun.}, 181:1477, 2010.
+
+\bibitem{ONETEP}
+C.-K. Skylaris, P.D. Haynes, A.A. Mostofi, and M.C. Payne.
+\newblock Introducing {ONETEP}: {L}inear-scaling density functional simulations
+  on parallel computers.
+\newblock {\em The Journal of Chemical Physics}, 122:084119, 2005.
+
+\bibitem{nist}
+R.D.~Johnson III.
+\newblock {NIST} {C}omputational {C}hemistry {C}omparison and {B}enchmark
+  {D}atabase, {NIST} {S}tandard {R}eference {D}atabase {N}umber 101, {R}elease
+  16a, {A}ugust 2013.
+\newblock http://cccbdb.nist.gov/.
+
+\bibitem{good_practice_free_energy}
+C.~Chipot A.~Pohorille, C.~Jarzynski.
+\newblock Good practices in free-energy calculations.
+\newblock {\em The Journal of Physical Chemistry B}, 114:10235--10253, 2010.
+
+\end{thebibliography}

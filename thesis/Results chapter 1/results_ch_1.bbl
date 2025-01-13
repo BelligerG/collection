@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{antechamber}
+P.A. Kollman D.A.~Case J.~Wang, W.~Wang.
+\newblock {A}utomatic atom {T}ype and {B}ond {T}ype {P}erception in {M}olecular
+  {M}echanical {C}alculations.
+\newblock {\em Journal of Molecular Graphics and Modelling}, 25:247260, 2006.
+
+\bibitem{zwanzig}
+R.W. Zwanzig.
+\newblock High-{T}emperature {E}quation of {S}tate by a {P}erturbation
+  {M}ethod. {I}. {N}onpolar {G}ases.
+\newblock {\em The Journal of Chemical Physics}, 22(8):1420--1426, 1954.
+
+\bibitem{good_practice_free_energy}
+C.~Chipot A.~Pohorille, C.~Jarzynski.
+\newblock Good practices in free-energy calculations.
+\newblock {\em The Journal of Physical Chemistry B}, 114:10235--10253, 2010.
+
+\bibitem{Berg_maths}
+B.A. Berg.
+\newblock Multicanonical {S}imulations {S}tep by {S}tep.
+\newblock {\em Computer Physics Communications}, 153:397--406, 2003.
+
+\bibitem{Stat_mech}
+M.E. Tuckerman.
+\newblock {\em Statistical {M}echanics: {T}heory and {M}olecular {S}imulation}.
+\newblock Oxford {G}raduate {T}exts, 2010.
+
+\bibitem{cumulant_expansion_cutoff}
+S.~Park, F.~Khalili-Araghi, E.~Tajkhorshid, and K.~Schulten.
+\newblock Free {E}nergy {C}alculation from {S}teered {M}olecular {D}ynamics
+  {S}imulations using {J}arzynski's {E}quality.
+\newblock {\em The {J}ournal of {C}hemical {P}hysics}, 119:3559--3566, 2003.
+
+\end{thebibliography}

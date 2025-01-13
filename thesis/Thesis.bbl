@@ -1,0 +1,92 @@
+\begin{thebibliography}{10}
+
+\bibitem{fox_mm_to_qm}
+S.J. Fox, C.Pittock, C.S. Tautermann, T.~Fox, C.~Christ, N.O.J. Malcolm, J.W.
+  Essex, and C.-K. Skylaris.
+\newblock Free energies of binding from large-scale first-principles quantum
+  mechanical calculation: Application to ligand hydration energies.
+\newblock {\em Journal of Physical Chemistry B}, 117:9478--9485, 2013.
+
+\bibitem{zwanzig}
+R.W. Zwanzig.
+\newblock High-{T}emperature {E}quation of {S}tate by a {P}erturbation
+  {M}ethod. {I}. {N}onpolar {G}ases.
+\newblock {\em The Journal of Chemical Physics}, 22(8):1420--1426, 1954.
+
+\bibitem{Berg_maths}
+B.A. Berg.
+\newblock Multicanonical {S}imulations {S}tep by {S}tep.
+\newblock {\em Computer Physics Communications}, 153:397--406, 2003.
+
+\bibitem{amber_ref}
+D.A. Case, T.A. Darden, T.E.~Cheatham III, C.L. Simmerling, J.~Wang, R.E. Duke,
+  R.~Luo, M.~Crowley, R.C. Walker, W.Zhang, K.M. Merz, B.~Wang, S.~Hayik,
+  A.~Roitberg, G.~Seabra, I.~Kolossvary, K.F. Song, F.~Paesani, J.~Vanicek,
+  X.~Wu, S.R. Brozell, T.~Steinbrecher, H.~Gohlke, L.~Yang, C.~Tan, J.~Mongen,
+  V.~Hornak, G.~Cui, D.H. Mathews, M.G. Seetin, C.~Sagui, V.~Babin, and P.A.
+  Kollman.
+\newblock {\em AMBER 10}.
+\newblock University of California, San Fransico, 2008.
+
+\bibitem{moe2009}
+Chemical {C}omputing {G}roup~{I}nc.: {M}ontreal.
+\newblock {\em M{OE}2009.10}, 2009.
+
+\bibitem{antechamber}
+P.A. Kollman D.A.~Case J.~Wang, W.~Wang.
+\newblock {A}utomatic atom {T}ype and {B}ond {T}ype {P}erception in {M}olecular
+  {M}echanical {C}alculations.
+\newblock {\em Journal of Molecular Graphics and Modelling}, 25:247--260, 2006.
+
+\bibitem{tip4p}
+W.L. Jorgensen, J.~Chandrasekhar, J.D. Madura, R.W. Impey, and M.L. Klein.
+\newblock Comparison of simple potential functions for simulating liquid water.
+\newblock {\em The {J}ournal of {C}hemical {P}hysics}, 79(2):926--935, 1983.
+
+\bibitem{gaff}
+J.~Wang, R.M. Wolf, J.W. Caldwell, P.A. Kollman, and D.A. Case.
+\newblock Development and testing of a general amber force field.
+\newblock {\em Journal of {C}omputational {C}hemistry}, 25(9):1157--1174, 2004.
+
+\bibitem{shake}
+J.P. Ryckaert, G.~Ciccotti, and H.J.C. Berendsen.
+\newblock {N}umerical {I}ntegration of the {C}artesian {E}quations of {M}otion
+  of a {S}ystem with {C}onstraints: {M}olecular {D}ynamics of n-{A}lkanes.
+\newblock {\em {J}ournal of {C}omputational {P}hysics}, 23(3):327--341, 1977.
+
+\bibitem{ONETEP}
+C.-K. Skylaris, P.D. Haynes, A.A. Mostofi, and M.C. Payne.
+\newblock Introducing {ONETEP}: {L}inear-scaling density functional simulations
+  on parallel computers.
+\newblock {\em The Journal of Chemical Physics}, 122:084119, 2005.
+
+\bibitem{good_practice_free_energy}
+C.~Chipot A.~Pohorille, C.~Jarzynski.
+\newblock Good practices in free-energy calculations.
+\newblock {\em The Journal of Physical Chemistry B}, 114:10235--10253, 2010.
+
+\bibitem{cumulant_expansion_cutoff}
+S.~Park, F.~Khalili-Araghi, E.~Tajkhorshid, and K.~Schulten.
+\newblock Free {E}nergy {C}alculation from {S}teered {M}olecular {D}ynamics
+  {S}imulations using {J}arzynski's {E}quality.
+\newblock {\em The {J}ournal of {C}hemical {P}hysics}, 119:3559--3566, 2003.
+
+\bibitem{Stat_mech}
+M.E. Tuckerman.
+\newblock {\em Statistical {M}echanics: {T}heory and {M}olecular {S}imulation}.
+\newblock Oxford {G}raduate {T}exts, 2010.
+
+\bibitem{multistate_gaussian}
+G.~Hummer, L.R. Pratt, and A.E. Garc{\'i}a.
+\newblock {M}ultistate {G}aussian {M}odel for {E}lectrostatic {S}olvation
+  {F}ree {E}nergies.
+\newblock {\em Journal of the {A}merican {C}hemical {S}ociety}, 119:8523--8527,
+  1997.
+
+\bibitem{mullholland_qmmm}
+C.J. Woods, F.R. Manby, and A.J. Mulholland.
+\newblock An efficient method for the calculation of quantum
+  mechanics/molecular mechanics free energies.
+\newblock {\em J. Chem. Phys.}, 128, 2008.
+
+\end{thebibliography}

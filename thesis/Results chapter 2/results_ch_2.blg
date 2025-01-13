@@ -1,0 +1,12 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: results_ch_2.aux
+The style file: unsrt.bst
+Database file #1: ../mybib.bib
+Warning--entry type for "nist" isn't style-file defined
+--line 330 of file ../mybib.bib
+Too many commas in name 1 of "S. Dapprich, I. Kom\'{a}romi, K.S. Byun, K. Morokuma, M.J. Frisch" for entry oniom
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "S. Dapprich, I. Kom\'{a}romi, K.S. Byun, K. Morokuma, M.J. Frisch" for entry oniom
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "J. Wang, W. Wang, P.A. Kollman, D.A. Case" for entry antechamber
+while executing---line 944 of file unsrt.bst
+(There were 3 error messages)

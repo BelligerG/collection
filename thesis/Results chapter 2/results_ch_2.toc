@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Theory}{1}
+\contentsline {subsection}{\numberline {2.1}Hybrid Monte Carlo}{2}
+\contentsline {subsection}{\numberline {2.2}Accepting to the QM/MM ensemble}{3}
+\contentsline {subsection}{\numberline {2.3}Stratification}{4}
+\contentsline {subsection}{\numberline {2.4}Transitioning to the full QM}{5}
+\contentsline {section}{\numberline {3}Methods}{5}
+\contentsline {subsection}{\numberline {3.1}Classical details}{5}
+\contentsline {subsection}{\numberline {3.2}QM details}{6}
+\contentsline {section}{\numberline {4}Results}{6}
+\contentsline {subsection}{\numberline {4.1}A Comparison of Methods While modifying the Force Field}{6}
+\contentsline {subsection}{\numberline {4.2}Generating QM/MM ensemble}{9}
+\contentsline {subsection}{\numberline {4.3}Perturbation to full QM}{13}
+\contentsline {section}{References}{15}
